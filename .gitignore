@@ -1,0 +1,71 @@
+# Sensitive data and credentials
+data/
+.env
+.env.*
+*.key
+*.p12
+*.pfx
+*.pem
+
+# Local configuration
+collector.json
+collector-*.json
+config.local.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated packages and binaries
+ngrok.exe
+sentinelx-collector.zip
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Android generated files
+**/.gradle/
+**/build/
+
+# Downloaded AI models
+models/
+
+# --- additional safety net (added during GitHub preparation) ---
+# secrets / credentials
+*.crt
+*.cer
+*.jks
+*.keystore
+secrets.*
+credentials.*
+.env.local
+!.env.example
+# local tooling
+.claude/
+*.swp
+*.iml
+# Android
+local.properties
+*.apk
+*.aab
+captures/
+# runtime / generated
+*.sqlite
+*.sqlite3
+.coverage
+htmlcov/

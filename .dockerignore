@@ -1,0 +1,13 @@
+data
+models
+tests
+android
+collector
+node_modules
+web/node_modules
+web/dist
+*.zip
+ngrok.exe
+.git
+__pycache__
+.env*
